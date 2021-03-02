@@ -1,0 +1,128 @@
+[ {
+  "name" : "CES - Maven Module Relations",
+  "description" : "Shows relations between maven modules",
+  "visualTags" : [ "digraph", "hierarchical-edge-bundle", "forced-layered-graph" ],
+  "entity" : "MODULES",
+  "timestamp" : 1614706330775,
+  "content" : {
+    "nodes" : [ {
+      "name" : "dx-platform-app",
+      "component" : 1
+    }, {
+      "name" : "jira-miner",
+      "component" : 1
+    }, {
+      "name" : "dx-platform-services",
+      "component" : 1
+    }, {
+      "name" : "dx-platform-core",
+      "component" : 1
+    }, {
+      "name" : "dx-platform",
+      "component" : 1
+    }, {
+      "name" : "dx-platform-web",
+      "component" : 1
+    }, {
+      "name" : "famix-parser",
+      "component" : 1
+    }, {
+      "name" : "dx-platform-api",
+      "component" : 1
+    }, {
+      "name" : "dx",
+      "component" : 1
+    }, {
+      "name" : "dx-platform-model",
+      "component" : 1
+    }, {
+      "name" : "git-client",
+      "component" : 1
+    } ],
+    "links" : [ {
+      "source" : "dx-platform-app",
+      "target" : "dx-platform-api",
+      "value" : 1
+    }, {
+      "source" : "dx-platform-app",
+      "target" : "dx-platform-core",
+      "value" : 1
+    }, {
+      "source" : "dx-platform-app",
+      "target" : "dx-platform-model",
+      "value" : 1
+    }, {
+      "source" : "dx-platform-app",
+      "target" : "dx-platform-web",
+      "value" : 1
+    }, {
+      "source" : "dx-platform-app",
+      "target" : "dx-platform-services",
+      "value" : 1
+    }, {
+      "source" : "dx-platform-app",
+      "target" : "jira-miner",
+      "value" : 1
+    }, {
+      "source" : "dx-platform-app",
+      "target" : "dx",
+      "value" : 1
+    }, {
+      "source" : "jira-miner",
+      "target" : "dx-platform-api",
+      "value" : 1
+    }, {
+      "source" : "jira-miner",
+      "target" : "dx-platform-model",
+      "value" : 1
+    }, {
+      "source" : "dx-platform-services",
+      "target" : "dx-platform-api",
+      "value" : 1
+    }, {
+      "source" : "dx-platform-services",
+      "target" : "dx-platform-model",
+      "value" : 1
+    }, {
+      "source" : "dx-platform-services",
+      "target" : "git-client",
+      "value" : 1
+    }, {
+      "source" : "dx-platform-services",
+      "target" : "jira-miner",
+      "value" : 1
+    }, {
+      "source" : "dx-platform-services",
+      "target" : "dx",
+      "value" : 1
+    }, {
+      "source" : "dx-platform-web",
+      "target" : "dx-platform-services",
+      "value" : 1
+    }, {
+      "source" : "dx-platform-api",
+      "target" : "dx-platform-core",
+      "value" : 1
+    }, {
+      "source" : "dx-platform-model",
+      "target" : "dx-platform-api",
+      "value" : 1
+    }, {
+      "source" : "dx-platform-model",
+      "target" : "dx",
+      "value" : 1
+    }, {
+      "source" : "git-client",
+      "target" : "dx-platform-api",
+      "value" : 1
+    }, {
+      "source" : "git-client",
+      "target" : "dx-platform-model",
+      "value" : 1
+    }, {
+      "source" : "git-client",
+      "target" : "dx",
+      "value" : 1
+    } ]
+  }
+} ]

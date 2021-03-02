@@ -1,0 +1,28 @@
+{
+  "id": "ces-maven-module-relations",
+  "name": "CES - Maven Module Relations",
+  "description": "This plugin shows relations between Maven modules",
+  "version": "1.0.0",
+  "schemaVersion": "1",
+  "icon": "",
+  "commands": [
+    {
+      "id": "maven-relations",
+      "name": "CES - Maven Module Relations Command",
+      "type": "analyzer",
+      "description": "Generates Module Relations",
+      "commandTemplate": "java -jar ces-maven-module-relations.jar ${outputFile} ${baseFolder}",
+      "configurationFields": [
+        {
+          "id": "baseFolder",
+          "name": "Root Folder",
+          "type": "FOLDER",
+          "description": "The absolute path to the folder where your project exists",
+          "tooltip": "The absolute path to the folder where your project exists",
+          "showDescription": false,
+          "required": true
+        }
+      ]
+    }
+  ]
+}
